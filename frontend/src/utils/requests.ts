@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://localhost:8080';
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL ?? 'http://localhost:8080'; // Definindo que a BASE_URL da aplicação vai ser para pegar a var de ambiente do netlify
